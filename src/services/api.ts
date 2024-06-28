@@ -1,7 +1,7 @@
 import axios from "axios";
 import { ICountyData } from "../types/ICountyData";
 
-const API_URL = "http://dataservice.accuweather.com/currentconditions/v1";
+const API_URL = "https://dataservice.accuweather.com/currentconditions/v1";
 
 const API_KEY = "9l0F0wPAD4hBIorNmnQC98VTJ9zX6z6V";
 
