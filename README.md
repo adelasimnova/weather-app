@@ -1,5 +1,5 @@
 # Weather App
-[Demo](https://webbucket-cdn-weather-app-prod-1148c031.stacktape-app.com/)
+[Demo](https://webbucket-cdn-weather-app-2-production-23804cc4.stacktape-app.com/)
 
 ## Project Description
 This Weather App is a responsive and user-friendly application designed to provide accurate and up-to-date weather information in Slovakia. Built using modern web technologies, this app aims to deliver a seamless experience, whether you're checking the weather from your desktop or on-the-go with your mobile device.

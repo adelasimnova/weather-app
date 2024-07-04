@@ -83,7 +83,7 @@ function App() {
 
   return (
     <div
-      className={`app-container ${countyData?.IsDayTime ? "" : "nighttime"}`}
+      className={`app-container ${countyData?.IsDayTime === true || countyData?.IsDayTime === undefined ? "" : "nighttime"}`}
     >
       <div className="app">
         <div className="select-container">
