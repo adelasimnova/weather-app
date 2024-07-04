@@ -12,5 +12,9 @@ export async function getCountyData(key: string): Promise<ICountyData> {
   };
   const result = await axios.get(`${API_URL}/${key}`, { params });
 
+  if (!result.data || result.data.length === 0) {
+    throw new Error("Data not found");
+  }
+
   return result.data[0];
 }
