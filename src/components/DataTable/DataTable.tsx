@@ -1,11 +1,11 @@
 import "./DataTable.css";
-import { ICountyData } from "../../types/ICountyData";
+import { ICountyWeather } from "../../types/ICountyWeather";
 
 interface IProps {
-  countyData: ICountyData;
+  countyData: ICountyWeather;
 }
 
-function DataTable(props: IProps) {
+export default function DataTable(props: IProps) {
   return (
     <>
       <table className="data-table">
@@ -58,5 +58,3 @@ function DataTable(props: IProps) {
     </>
   );
 }
-
-export default DataTable;

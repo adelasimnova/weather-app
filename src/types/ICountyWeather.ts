@@ -1,4 +1,4 @@
-export interface ICountyData {
+export interface ICountyWeather {
   LocalObservationDateTime: string;
   WeatherText: string;
   WeatherIcon: number;
